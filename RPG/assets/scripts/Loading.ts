@@ -23,14 +23,14 @@ export class Loading extends cc.Component {
     }
 
     public update(dt: number): void {
-
-        this.bg1.x -= dt * 200;
-        this.bg2.x -= dt * 200;
-
         this.checkBGPosition(dt);
     }
 
     private checkBGPosition(dt: number): void {
+        let speed = 500;
+        this.bg1.x -= dt * speed;
+        this.bg2.x -= dt * speed;
+
         let bg1MinX = -(this.screenWidth / 2 + this.bg1.width);
         if (this.bg1.x < bg1MinX) {
             this.bg1.x = this.bg2.x + this.bg2.width;
@@ -38,7 +38,7 @@ export class Loading extends cc.Component {
 
         let bg2MinX = -(this.screenWidth / 2 + this.bg2.width);
         if (this.bg2.x < bg2MinX) {
-            this.bg2.x = this.bg2.x + this.bg2.width;
+            this.bg2.x = this.bg1.x + this.bg1.width;
         }
     }
 }
