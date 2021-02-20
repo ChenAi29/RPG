@@ -14,20 +14,29 @@ export class Loading extends cc.Component {
     @property({ displayName: "背景2", type: cc.Node })
     private bg2: cc.Node = null;
 
+    @property({ displayName: "进度条", type: cc.Sprite })
+    private progressBar: cc.Sprite = null;
+
     private screenWidth: number = 0;
 
     public onLoad(): void {
         this.screenWidth = cc.Canvas.instance.node.width;
         this.bg1.x = -this.screenWidth / 2;
         this.bg2.x = this.bg1.width + this.bg1.x;
+        this.progressBar.fillRange = 0;
     }
 
     public update(dt: number): void {
+        this.refreshProgress(dt);
         this.checkBGPosition(dt);
     }
 
+    private refreshProgress(dt: number): void {
+        this.progressBar.fillRange += 0.003;
+    }
+
     private checkBGPosition(dt: number): void {
-        let speed = 500;
+        let speed = 100;
         this.bg1.x -= dt * speed;
         this.bg2.x -= dt * speed;
 
