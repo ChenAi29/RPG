@@ -3,8 +3,8 @@
   "_name": "bajie",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.8,
-  "sample": 10,
+  "_duration": 1,
+  "sample": 8,
   "speed": 1,
   "wrapMode": 2,
   "curveData": {
@@ -18,43 +18,43 @@
             }
           },
           {
-            "frame": 0.1,
+            "frame": 0.125,
             "value": {
               "__uuid__": "97cedbff-2ce0-46d6-9623-2e92893fda7d"
             }
           },
           {
-            "frame": 0.2,
+            "frame": 0.25,
             "value": {
               "__uuid__": "062eeb97-999c-460d-b983-e032e9774de0"
             }
           },
           {
-            "frame": 0.3,
+            "frame": 0.375,
             "value": {
               "__uuid__": "b495d673-69cd-4dd2-9173-ac7eb972d1c3"
             }
           },
           {
-            "frame": 0.4,
+            "frame": 0.5,
             "value": {
               "__uuid__": "c3a1d718-a361-4307-840c-aef2550fc0f4"
             }
           },
           {
-            "frame": 0.5,
+            "frame": 0.625,
             "value": {
               "__uuid__": "bdd8fbd0-7946-4174-a51e-3d5f330bf311"
             }
           },
           {
-            "frame": 0.6,
+            "frame": 0.75,
             "value": {
               "__uuid__": "bf3a46ac-ed2b-4b30-af7c-d2896c0fa9bc"
             }
           },
           {
-            "frame": 0.7,
+            "frame": 0.875,
             "value": {
               "__uuid__": "0b6a0fd2-e3f5-4f14-805b-31e8dd49354f"
             }

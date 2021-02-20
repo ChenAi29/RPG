@@ -3,8 +3,8 @@
   "_name": "wukong",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.8,
-  "sample": 10,
+  "_duration": 1,
+  "sample": 8,
   "speed": 1,
   "wrapMode": 2,
   "curveData": {
@@ -18,43 +18,43 @@
             }
           },
           {
-            "frame": 0.1,
+            "frame": 0.125,
             "value": {
               "__uuid__": "9f2befe7-10ec-4846-bcdb-851e25f15f9b"
             }
           },
           {
-            "frame": 0.2,
+            "frame": 0.25,
             "value": {
               "__uuid__": "9c4bded0-82a9-4bdb-8791-ee985ecfc5bf"
             }
           },
           {
-            "frame": 0.3,
+            "frame": 0.375,
             "value": {
               "__uuid__": "1b5215e9-c5d3-4d71-9e12-d9de6a93e8b8"
             }
           },
           {
-            "frame": 0.4,
+            "frame": 0.5,
             "value": {
               "__uuid__": "910817d0-f627-47ed-9803-e712813eec5c"
             }
           },
           {
-            "frame": 0.5,
+            "frame": 0.625,
             "value": {
               "__uuid__": "91ab697f-3079-4a69-b9b1-474db072980d"
             }
           },
           {
-            "frame": 0.6,
+            "frame": 0.75,
             "value": {
               "__uuid__": "5edee2e3-4a2f-408a-9a25-ebb1849a0242"
             }
           },
           {
-            "frame": 0.7,
+            "frame": 0.875,
             "value": {
               "__uuid__": "62deb5e9-3d38-4562-b1b5-e57f3e9c00a3"
             }

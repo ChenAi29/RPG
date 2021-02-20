@@ -3,8 +3,8 @@
   "_name": "tangseng",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.8,
-  "sample": 10,
+  "_duration": 1,
+  "sample": 8,
   "speed": 1,
   "wrapMode": 2,
   "curveData": {
@@ -18,43 +18,43 @@
             }
           },
           {
-            "frame": 0.1,
+            "frame": 0.125,
             "value": {
               "__uuid__": "3b7ea149-dd75-423e-ad72-d40d984712fe"
             }
           },
           {
-            "frame": 0.2,
+            "frame": 0.25,
             "value": {
               "__uuid__": "8ade42a4-6dfd-41f8-b823-1be8427008f6"
             }
           },
           {
-            "frame": 0.3,
+            "frame": 0.375,
             "value": {
               "__uuid__": "2274235e-0f87-4df0-8041-bb86beb4c2ae"
             }
           },
           {
-            "frame": 0.4,
+            "frame": 0.5,
             "value": {
               "__uuid__": "315d3471-e9fd-46eb-b742-84c0c6003f39"
             }
           },
           {
-            "frame": 0.5,
+            "frame": 0.625,
             "value": {
               "__uuid__": "e3fe8e60-2922-4669-9909-ae0da518abd5"
             }
           },
           {
-            "frame": 0.6,
+            "frame": 0.75,
             "value": {
               "__uuid__": "76d2a2fe-f10a-412c-9b6c-164f3c75db84"
             }
           },
           {
-            "frame": 0.7,
+            "frame": 0.875,
             "value": {
               "__uuid__": "a5d108bd-0ad7-4847-8677-53b02a6f86a5"
             }
